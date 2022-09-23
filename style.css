@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(t.jpg); background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+  
+
+p{
+    text-align: center;
+    color: darkred;
+}
+
+h4{
+    color: darkblue;
+    text-align: center;
+}
+
+.conteiner {
+    height: 700px;
+     width: 700px;
+  }
+
+.goso{
+    height: 700px;
+     width: 700px;
+  }
+
+
+
+
+@media screen and (max-width:500px) {
+
+ html{
+        color: rgb(75, 7, 102);
+       font-family: serif;
+        background-color: rgb(16, 185, 10);
+    }
+    
+    h1{
+        text-align: start;
+        color: rgb(128, 2, 2);
+    }
+    
+    p{
+        text-align: center;
+        color: rgb(87, 15, 69);
+    }
+    
+    h4{
+        text-align: center;
+    }
+    
+}
